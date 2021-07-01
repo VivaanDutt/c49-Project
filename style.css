@@ -22,6 +22,7 @@ a{
     background-color:white;
     width:310px;
     font-family: fantasy;
+    border: 2px solid black;
 }
 .menu{
     display: flex;
