@@ -2,10 +2,22 @@ p{
     font-size:larger;
     font-weight:bold;
 }
-a{
+a:link{
     font-size:large;
     font-style:oblique;
     color:#ff00ff;
+    margin-left:20px;
+}
+a:visited{
+    font-size:large;
+    font-style:oblique;
+    color:#0000ff;
+    margin-left:20px;
+}
+a:hover{
+    font-size:large;
+    font-style:oblique;
+    color:#ff00a1;
     margin-left:20px;
 }
 .grid{
@@ -22,6 +34,16 @@ a{
     padding: 20px;
     margin: 20px;
 }
+.origami:hover{
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 310px;
+    font-family: fantasy;
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 20px;
+    transform: scale(1.2);
+}
 .menu{
     display: flex;
     justify-content: space-between;
@@ -33,9 +55,21 @@ a{
     padding: 10px;
 }
 body{
-    background-color: #ffffff;
+    background-color: #f7f2e2;
     margin: 20px;
 }
 .header{
     padding: 25px;
+}
+.bodyimg{
+    position: relative;
+}
+.bodyimg p{
+    color: #f7f2e2;
+    font-size: 25px;
+    font-family: fantasy;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
